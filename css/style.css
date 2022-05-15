@@ -1,0 +1,88 @@
+/*
+Colors used:
+Primary Color (Blue): #466995;
+Secondary Color (Green): #4F4F4F;
+*/
+  body {
+  background-color: White;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 280;
+  line-height: 1.8;
+  color: #4F4F4F;
+  }
+
+  h1, h2, h3, h4 {
+  line-height: 1.8;
+}
+
+h1 {
+  font-size: 2.75em;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
+}
+
+/*logo sizing*/
+#logo {
+  width: 200px;
+  height: auto;
+}
+
+#profileImage {
+  width: 300px;
+  height: auto;
+}
+
+#happify {
+  width: 300px;
+  height: auto;
+}
+
+#mindshift {
+  width: 300px;
+  height: auto;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+    color: #466995;
+    text-decoration: none; /* No underlining */
+  }
+
+  a:hover,
+  a:focus {
+    color: #466995;
+    text-decoration: underline; /* Underlining when hovering over a link */
+  }
+
+  .button {
+    display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+    background-color: #466995;
+    color: #ffffff; /* needed to override the default link color */
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid #466995; /* width of the border, type, color */
+    transition: 0.2s opacity;
+  }
+
+  .button:hover {
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+}

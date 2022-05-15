@@ -1,20 +1,31 @@
 <!DOCTYPE html>
   <html lang="en" dir="ltr">
+
     <head>
       <meta charset="utf-8">
-      <title>Maya Schoch</title>
-      <div>
-        <img src="img/logo/smallLogo.png" alt="Maya Schoch">
-        <nav>
-          <ul>
-            <li><a href="index.html">My Work</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="contact.html">Contact Me</a></li>
-          </ul>
-        </nav>
-      </div>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <title>Maya Schoch UI/UX Designer</title>
     </head>
+
     <body>
+      <header>
+        <div>
+          <nav>
+            <a href="index.html">
+              <img id="logo" src="img/logo/smallLogo.png" alt="Maya Schoch">
+            </a>
+            <ul>
+              <li><a class="menu-link" href="index.html">My Work</a></li>
+              <li><a class="menu-link" href="about.html">About Me</a></li>
+              <li><a class="menu-link" href="contact.html">Contact Me</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
       <main>
        <div>
             <h2>About Me</h2>
@@ -24,7 +35,7 @@
                   <div>
                     <picture>
                       <source srcset="img/profileImage/profileImage.jpg" media="(max-width:767px)">
-                      <img src="img/profileImage/profileImage.jpg" alt="Profile Image">
+                      <img id="profileImage" src="img/profileImage/profileImage.jpg" alt="Profile Image">
                     </picture>
                   </div>
                   <p>I studied 3D animation and worked in motion graphics, graphic design and illustration before starting in UX and
@@ -62,28 +73,28 @@
            </div>
     </main>
 
-      <footer>
-        <div>
-          <h2>Get in Touch</h2>
-          <p>
-            Do you like my work and wish to collaborate? Send me an e.mail!
-            Call: <a href="+49 7768825643">+49 7768825643</a>.
-          </p>
-          <p>Prefer sending an email?</p>
+    <footer>
+      <div>
+        <h2>Get in Touch</h2>
+        <p>
+          Do you like my work and wish to collaborate? Send me an e.mail!
+          Call: <a href="+49 7768825643">+49 7768825643</a>. Prefer sending an email?
+        </p>
+          <div>
+            <a href="mailto:mayaschoch@gmail.com" class="button contact">Email me</a>
+          </div>
             <div>
-              <a href="mailto:mayaschoch@gmail.com">Email me</a>
+              <!--Social Media Layout and Placeholders-->
+              <a href="https://www.instagram.com/mygeedraws/" target="_blank">
+                <img src="img/socialMediaIcons/1025px-Instagram-Icon.png" style="width: 60px"/>
+              </a>
+              <a href="https://www.linkedin.com/in/maya-schoch-35703284/">
+                <img src="img/socialMediaIcons/linkedinLogo.png"style="width: 60px"/>
+              </a>
             </div>
-              <div>
-                <!--Social Media Layout and Placeholders-->
-                <a href="https://www.instagram.com/mygeedraws/" target="_blank">
-                  <img src="img/socialMediaIcons/1025px-Instagram-Icon.png">
-                </a>
-                <a href="https://www.linkedin.com/in/maya-schoch-35703284/">
-                  <img src="img/socialMediaIcons/linkedinLogo.png">
-                </a>
-             </div>
-        <p>Copyright Maya Schoch 2020</p>
-      </div>
-     </footer>
+      <p>Copyright Maya Schoch 2020</p>
+    </div>
+    </footer>
+
     </body>
   </html>
