@@ -12,6 +12,10 @@ Secondary Color (Green): #4F4F4F;
   color: #4F4F4F;
   }
 
+  header {
+    background-color: #ff44c4;
+  }
+
   h1, h2, h3, h4 {
   line-height: 1.8;
 }
