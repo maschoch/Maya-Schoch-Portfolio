@@ -4,7 +4,7 @@
     <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+      <link rel="stylesheet" type="text/css" href="">
       <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="css/style.css">
       <title>Maya Schoch UI/UX Designer</title>
@@ -12,12 +12,13 @@
 
     <body>
       <header>
-        <div>
+        <div class="container">
+          <a href="index.html">
+            <img id="logo" src="img/logo/smallLogo.png" alt="Maya Schoch">
+            </img>
+          </a>
           <nav>
-            <a href="index.html">
-              <img id="logo" src="img/logo/smallLogo.png" alt="Maya Schoch">
-            </a>
-            <ul>
+            <ul class="navigation">
               <li><a class="menu-link" href="index.html">My Work</a></li>
               <li><a class="menu-link" href="about.html">About Me</a></li>
               <li><a class="menu-link" href="contact.html">Contact Me</a></li>
@@ -37,8 +38,9 @@
 
        <!-- Work section -->
        <div id="work">
+         <div class="container">
           <h2>My Work</h2>
-            <div>
+            <div class="row">
               <div>
                   <h3>Creating Space</h3>
                   <div>
@@ -50,11 +52,12 @@
                   <a href="creatingSpace.html" class="button">Find out more</a>
               </div>
            </div>
+           </div>
       </div>
     </main>
 
       <footer>
-        <div>
+        <div class="container">
           <h2>Get in Touch</h2>
           <p>
             Do you like my work and wish to collaborate? Send me an e.mail!
