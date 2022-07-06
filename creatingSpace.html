@@ -7,12 +7,17 @@
       <link rel="stylesheet" type="text/css" href="">
       <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="css/style.css">
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/scripts.js"></script>
+      <script src="https://kit.fontawesome.com/69c0e0a262.js" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
       <title>Maya Schoch UI/UX Designer</title>
     </head>
 
     <body>
       <header>
         <div class="container">
+          <div class="navtoggle" id="myNavtoggle">
           <a href="index.html">
             <img id="logo" src="img/logo/smallLogo.png" alt="Maya Schoch">
             </img>
@@ -22,9 +27,11 @@
               <li><a class="menu-link" href="index.html">My Work</a></li>
               <li><a class="menu-link" href="about.html">About Me</a></li>
               <li><a class="menu-link" href="contact.html">Contact Me</a></li>
+              <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fa-solid fa-bars"></i></a></li>
             </ul>
           </nav>
         </div>
+      </div>
       </header>
 
       <main>
@@ -81,17 +88,12 @@
                        understand the science behind anxiety and fears. However, the app itself is quite buggy, they are lacking a community element and the
                        potential to keep users on their mental health path, with something like, gamification. Happify have the latest advancements in positive
                        pschology and neuroscience and they guide you every step of the way with a community element. A weakness of theirs is that certain features
-                       aren’t accesible unless you pay for them and they are also missing links to counselling or physical excercise tips. Overall I need to:</p>
+                       aren’t accesible unless you pay for them and they are also missing links to counselling or physical excercise tips. Overall I need to: to include
+                       a community within the app to help users share experiences and make friendships, make the app as accessible as possible with minimal to no features
+                       that need to be paid for and consider a gamification element to allow users to keep them motivated on a positive mental health journey</p>
                   </div>
                   </div>
 
-                  <div>
-                      <ul>
-                        <li>To include a community within the app to help users share experiences and make friendships</li>
-                        <li>Make the app as accessible as possible with minimal to no features that need to be paid for</li>
-                        <li>Consider a gamification element to allow users to keep them motivated on a positive mental health journey</li>
-                      </ul>
-                  </div>
                   <div>
                     <picture>
                       <img id="mindshift" src="img/creatingSpace/mindshiftLogo.png" alt="Mindshift">
@@ -100,19 +102,24 @@
                       <img id="happify" src="img/creatingSpace/happifyLogo.png" alt="Mindshift">
                     </picture>
                   </div>
-                  <div>
-                    <h2>Survey & Interviews</h2>
-                    <p>From the survey summary I realised half the users have never looked for a stress and anxiety app,
+
+                  <div class="row">
+                    <div class="col-md-6">
+                      <h2>Survey & Interviews</h2>
+                      <p>From the survey summary I realised half the users have never looked for a stress and anxiety app,
                       let alone a mental health app. This lead me to rephrasing the question in interviews to
                       “How do you use websites or apps to help you with day to day anxiety and stress?” It seemed overall
                       that potential users would predominantly want a library of information at their disposal and wanting
                       to follow a community they can connect with.</p>
-                    <p>A very interesting note was how uncertain users were about a gamification element within mental health.
+                      <p>A very interesting note was how uncertain users were about a gamification element within mental health.
                       30.8% is quite high for those not wanting any gamification and 53.8% for not being sure of the feature.
                       It will be interesting to find out further in interviews whether there could be a certain technique where
                       gamification could work for all users.</p>
+                    </div>
                  </div>
-                 <div>
+
+                 <div class"row">
+                   <div class="col-md-7">
                    <h2>Goals</h2>
                    <div>
                        <ol>
@@ -475,7 +482,9 @@
 
        </div>
      </div>
+
    </div>
+    </div>
     </main>
 
     <footer>

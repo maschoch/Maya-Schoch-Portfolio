@@ -91,6 +91,7 @@ nav {
   width: auto;
   float: right;
   margin-top: 4px;
+  padding: 0px;
 }
 
 nav > ul {
@@ -281,8 +282,9 @@ main {
   display: block;
 }
 
-
-
+#animation {
+  display: center;
+}
 
 /* ==============================
 Medium devices (640px and larger)
@@ -290,6 +292,13 @@ Medium devices (640px and larger)
 @media only screen and (min-width: 640px) {
   header {
     text-align: unset;
+  }
+
+  body {
+    padding-top: 0px;
+    padding-right: 24px;
+    padding-bottom: 0px;
+    padding-left: 24px;
   }
 
   nav {
@@ -329,8 +338,8 @@ Medium devices (640px and larger)
       max-width: 150px;
       }
 
-  nav > ul > li {
-    display: inline-block;
+  nav > ul > li:last-child {
+    display: none;
   }
 
   .navtoggle li:not(:last-child) {
@@ -362,6 +371,13 @@ Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
 
+  body {
+    padding-top: 0px;
+    padding-right: 240px;
+    padding-bottom: 0px;
+    padding-left: 240px;
+  }
+
   .container {
     max-width: 1200px;
     margin-left: auto;
@@ -380,6 +396,13 @@ X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
 
+  body {
+    padding-top: 0px;
+    padding-right: 240px;
+    padding-bottom: 0px;
+    padding-left: 240px;
+  }
+
   .navtoggle li:last-child {
     display: none;
   }
@@ -390,6 +413,14 @@ X-large devices (1440px or larger)
 Extra-large devices (1920px or larger)
 ================================= */
 @media only screen and (min-width: 1920px) {
+
+  body {
+    padding-top: 0px;
+    padding-right: 240px;
+    padding-bottom: 0px;
+    padding-left: 240px;
+  }
+
   .navtoggle li:last-child {
     display: none;
   }
