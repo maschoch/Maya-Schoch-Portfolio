@@ -1,4 +1,4 @@
-console.log("Welcome to my site!")
+console.log("Welcome to my site! Hello")
 
 function menuToggle() {
   var x = document.getElementById('myNavtoggle');
@@ -7,4 +7,4 @@ function menuToggle() {
   } else {
     x.className = 'navtoggle';
   }
-}
+} 
